@@ -20,4 +20,3 @@ isa_ok $email, 'Email::Simple';
 diag $email->as_string;
 
 done_testing;
-__DATA__
